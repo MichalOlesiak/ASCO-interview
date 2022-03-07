@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    margin-top: -10px;
+}
+
+.navbar{
+    background-color: #c7d2df;
+}
+
+.navbar-brand{
+    position: relative;
+    top: 5px;
+    text-align: center;
+    font-size: 4rem;/*Coded to look good, normaly I would use img as Logo type*/
+    color:#4e5a66;
+    margin-left: 10%;
+    font-family: 'League Gothic', sans-serif;
+
+}
+
+.navbar-brand:hover{
+    color:#4e5a66;
+}
+
+.nav-link{
+    position: relative;
+    top:50%;
+    transform: translateY(-10%);
+    font-size: 2rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #4e5a66;
+    text-transform: none;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.nav-link:hover{
+    color: #4e5a66;
+    background-color: #e5e9f2;
+    margin-top: -16px;
+    height: 91px;
+}
+
+.btn0{
+    height: 40px;
+    width: 250%;
+    transform: translateY(-50%);
+    outline: 0;
+    border: none;
+    background: #47525e;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: 'League Gothic', sans-serif;
+}
+#firstbtn{
+    position: relative;
+    top: 25px;
+    left: 70%;
+
+}
+.left-side-box{
+    margin-top: 3%;
+    margin-left: 12%;
+    width: 15%;
+    height: 500px; /* just coded to look good*/
+    border-radius: 20px;
+    background-color: #c7d2df;
+}
+.card-body{
+    height: 140px;
+    
+}
+.btn2{
+    height: 40px;
+    width: 50px;
+    outline: 0;
+    border: none;
+    background: #757c84;
+    color: white;
+    font-weight: 400;
+    border-radius: 50px;
+    font-family: 'League Gothic', sans-serif;
+}
+.fab{
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: -10px;
+    font-size: 45px;
+}
+
+.news{
+    background-color: #47525e;
+    color: white;
+}
+.newsletter input{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn3{
+    height: 40px;
+    width: 40px;
+    outline: 0;
+    border: none;
+    background: #757c84;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: 'League Gothic', sans-serif;
+}
